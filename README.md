@@ -4,9 +4,12 @@
 
 **Start with glass. Customize everything.**
 
+[![Live demo](https://img.shields.io/badge/demo-live-7c3aed)](https://glassforge-ui.vercel.app)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![npm](https://img.shields.io/badge/npm-%40glassforge%2Fui-cb3837)](https://www.npmjs.com/package/@glassforge/ui)
 [![Built with TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)](https://www.typescriptlang.org/)
+
+**[→ Live demo](https://glassforge-ui.vercel.app)**
 
 GlassForge UI ships a small, premium set of themeable React components and blocks. Glass is the default showcase preset — but every component is driven by CSS variables, so you can swap to solid, soft, midnight, or any custom theme without forking the components.
 
