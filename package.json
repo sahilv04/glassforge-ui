@@ -1,0 +1,37 @@
+{
+  "name": "glassforge-ui-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Themeable React UI blocks for modern dashboards, SaaS apps, and portfolios.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahilv04/glassforge-ui"
+  },
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "pnpm --filter @glassforge/docs dev",
+    "build": "pnpm -r build",
+    "build:ui": "pnpm --filter @glassforge/ui build",
+    "test": "pnpm -r test",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "storybook": "pnpm --filter @glassforge/ui storybook",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

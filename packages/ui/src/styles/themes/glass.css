@@ -1,0 +1,14 @@
+.gf-theme-glass {
+  --gf-background: 12 14 32;
+  --gf-foreground: 248 250 252;
+  --gf-muted: 148 163 184;
+  --gf-primary: 168 85 247;
+  --gf-primary-foreground: 255 255 255;
+  --gf-border: 255 255 255;
+  --gf-border-alpha: 0.18;
+  --gf-surface-alpha: 0.12;
+  --gf-radius: 1.5rem;
+  --gf-blur: 28px;
+  --gf-shadow: 0 28px 90px rgb(0 0 0 / 0.45);
+  --gf-glow: 0 0 64px rgb(168 85 247 / 0.4);
+}

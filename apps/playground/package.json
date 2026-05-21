@@ -1,0 +1,11 @@
+{
+  "name": "@glassforge/playground",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"playground placeholder\"",
+    "build": "echo \"playground placeholder\"",
+    "test": "echo \"no playground tests\" && exit 0"
+  }
+}

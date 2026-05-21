@@ -1,0 +1,27 @@
+:root {
+  --gf-background: 255 255 255;
+  --gf-foreground: 15 23 42;
+  --gf-muted: 100 116 139;
+  --gf-primary: 124 58 237;
+  --gf-primary-foreground: 255 255 255;
+  --gf-border: 255 255 255;
+  --gf-border-alpha: 0.16;
+  --gf-surface-alpha: 0.14;
+  --gf-radius: 1.25rem;
+  --gf-blur: 24px;
+  --gf-shadow: 0 24px 80px rgb(15 23 42 / 0.18);
+  --gf-glow: 0 0 48px rgb(124 58 237 / 0.28);
+}
+
+.dark {
+  --gf-background: 2 6 23;
+  --gf-foreground: 248 250 252;
+  --gf-muted: 148 163 184;
+  --gf-primary: 168 85 247;
+  --gf-primary-foreground: 255 255 255;
+  --gf-border: 255 255 255;
+  --gf-border-alpha: 0.12;
+  --gf-surface-alpha: 0.10;
+  --gf-shadow: 0 24px 80px rgb(0 0 0 / 0.35);
+  --gf-glow: 0 0 56px rgb(168 85 247 / 0.35);
+}

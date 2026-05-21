@@ -1,0 +1,14 @@
+.gf-theme-soft {
+  --gf-background: 248 250 252;
+  --gf-foreground: 30 41 59;
+  --gf-muted: 100 116 139;
+  --gf-primary: 14 165 233;
+  --gf-primary-foreground: 255 255 255;
+  --gf-border: 30 41 59;
+  --gf-border-alpha: 0.08;
+  --gf-surface-alpha: 0.95;
+  --gf-radius: 1rem;
+  --gf-blur: 8px;
+  --gf-shadow: 0 16px 48px rgb(30 41 59 / 0.06);
+  --gf-glow: 0 0 40px rgb(14 165 233 / 0.2);
+}

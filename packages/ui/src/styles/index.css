@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@source "../**/*.{ts,tsx}";
+
+@import "./theme.css";
+@import "./themes/glass.css";
+@import "./themes/solid.css";
+@import "./themes/soft.css";
+@import "./themes/midnight.css";

@@ -1,0 +1,14 @@
+.gf-theme-midnight {
+  --gf-background: 2 6 23;
+  --gf-foreground: 226 232 240;
+  --gf-muted: 148 163 184;
+  --gf-primary: 56 189 248;
+  --gf-primary-foreground: 2 6 23;
+  --gf-border: 255 255 255;
+  --gf-border-alpha: 0.08;
+  --gf-surface-alpha: 0.6;
+  --gf-radius: 1rem;
+  --gf-blur: 16px;
+  --gf-shadow: 0 24px 80px rgb(0 0 0 / 0.55);
+  --gf-glow: 0 0 56px rgb(56 189 248 / 0.35);
+}
